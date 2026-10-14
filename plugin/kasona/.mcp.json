@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kasona": {
+      "type": "http",
+      "url": "https://mcp.kasona.ai/mcp"
+    }
+  }
+}

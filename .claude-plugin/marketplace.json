@@ -1,0 +1,16 @@
+{
+  "name": "kasona",
+  "owner": {
+    "name": "Kasona"
+  },
+  "metadata": {
+    "description": "Kasona plugins for Claude Code: portfolio, trade log, theses, Watchtower alerts, reports, company research and podcast episodes backed by the Kasona MCP server."
+  },
+  "plugins": [
+    {
+      "name": "kasona",
+      "source": "./plugin/kasona",
+      "description": "Review your Kasona portfolio health, trade log, saved theses, Watchtower alerts and reports, research a company, and catch up on published portfolio and watchlist podcast episodes, with citations and as-of dates."
+    }
+  ]
+}
