@@ -10,6 +10,7 @@
     {
       "name": "kasona",
       "source": "./plugin/kasona",
+      "version": "0.2.1",
       "description": "Review your Kasona portfolio health, trade log, saved theses, Watchtower alerts and reports, research a company, and catch up on published portfolio and watchlist podcast episodes, with citations and as-of dates."
     }
   ]

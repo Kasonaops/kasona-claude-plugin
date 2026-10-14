@@ -21,3 +21,10 @@ Use the connected Kasona MCP tools to describe the state of the user's portfolio
 - Always give the as-of date beside each figure. If a result is flagged `stale`, say so plainly and do not present the figure as current.
 - If a tool returns `insufficient_scope`, tell the user to reconnect Kasona in their host to grant access to this data, then stop. Do not report it as empty data. Never ask for passwords or OAuth tokens in chat.
 - If tools are unavailable or report authentication, subscription, or service errors, explain the actual limitation and direct the user to connect Kasona or resolve access. Never invent values, tickers, dates, or portfolio names.
+
+## Company names
+- If a response includes `matched_companies` with more than one company, say the results cover each listed company, attribute every item by ticker, and ask which company is meant if the intent is unclear.
+- If a tool returns `invalid_input` with `candidates`, call it again with the candidate `ticker_eod` matching the intended company; for one issuer on several exchanges, prefer its home listing.
+- Ask which company only when candidates represent clearly different companies (for example, BYD Company and Boyd Gaming) and the user's intent is unclear.
+- If a profile response includes `unresolved`, answer for the resolved companies and handle each unresolved input with the same candidate rule.
+- If a tool returns `budget_exceeded`, wait briefly and retry that call once.

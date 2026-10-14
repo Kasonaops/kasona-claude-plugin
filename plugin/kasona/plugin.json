@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "kasona",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Review your Kasona portfolio health, trade log, saved theses, Watchtower alerts and reports, research a company, and catch up on published portfolio and watchlist podcast episodes, with citations and as-of dates.",
   "author": {
     "name": "Elvision Analytics"

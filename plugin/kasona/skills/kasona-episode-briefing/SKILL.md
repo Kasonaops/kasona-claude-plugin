@@ -20,3 +20,4 @@ Use the connected Kasona MCP tools to brief the user on published personal portf
 - Always cite the source episode for each point. Never invent facts, tickers, titles, dates, or links. If required citation metadata is missing, say so instead of guessing.
 - Present claims as what the episodes reported at publication, not as verified current market facts. These read-only tools provide no investment advice, trades, or live prices. Do not turn a briefing into personalized buy, sell, or hold recommendations.
 - If tools are unavailable or report authentication, subscription, or service errors, explain the actual limitation and direct the user to connect Kasona or resolve access as appropriate. Do not report an error as an empty episode list. Never ask for passwords or OAuth tokens in chat.
+- If a tool returns `budget_exceeded`, wait briefly and retry that call once.
