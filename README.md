@@ -2,6 +2,8 @@
 
 Review your Kasona portfolio health, trade log, saved theses, Watchtower alerts and reports, research a company, and catch up on published portfolio and watchlist podcast episodes, with citations and as-of dates.
 
+**Step-by-step setup for Claude, Claude Code and ChatGPT (Deutsch und English): [SETUP.md](SETUP.md)**
+
 ## Install in Claude Code
 
 ```
