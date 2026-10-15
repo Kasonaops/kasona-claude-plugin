@@ -13,12 +13,14 @@ Die Verbindung liest nur. Sie führt keine Trades aus, bewegt kein Geld und ist 
 
 ## In Claude (claude.ai oder Claude Desktop)
 
-1. Öffne Claude und gehe zu **Customize > Connectors**.
-2. Klicke auf **+ Add** und dann auf **Add custom connector**.
+1. Klicke in claude.ai unten links auf deinen Namen, dann auf **Einstellungen**, dann auf **Anpassungen** und dann auf **Konnektoren**.
+2. Klicke auf **Hinzufügen** und dann auf **Benutzerdefinierte Konnektoren hinzufügen**.
 3. Name: `Kasona`. URL: `https://mcp.kasona.ai/mcp`. Speichern.
 4. Klicke bei Kasona auf **Connect**. Du landest bei der Kasona-Anmeldung.
 5. Melde dich mit deinem Kasona-Konto an, prüfe die angezeigten Berechtigungen und klicke auf **Erlauben**.
 6. Starte einen neuen Chat und frag zum Beispiel: „Wie steht mein Depot?“
+
+Tipp: Sobald du Kasona in claude.ai hinzugefügt hast, erscheint es auch in der Claude-Desktop-App mit demselben Konto, ohne weitere Einrichtung.
 
 In Team- oder Enterprise-Konten kann nur die Administration eigene Verbindungen hinzufügen.
 
@@ -54,7 +56,7 @@ Sobald Kasona in den Verzeichnissen von Claude und ChatGPT gelistet ist, kannst 
 
 ## Verbindung trennen
 
-- **Claude:** unter **Customize > Connectors** Kasona entfernen.
+- **Claude:** unter **Einstellungen > Anpassungen > Konnektoren** Kasona entfernen.
 - **ChatGPT:** das Kasona-Plugin öffnen und trennen oder entfernen.
 
 Wenn Kasona zusätzlich den Zugriff sperren soll, schreib an hallo@kasona.ai. Bereits gespeicherte Chats verwaltest du in Claude oder ChatGPT.
@@ -83,12 +85,14 @@ The connection is read-only. It does not place trades, does not move money and i
 
 ## In Claude (claude.ai or Claude Desktop)
 
-1. Open Claude and go to **Customize > Connectors**.
-2. Click **+ Add**, then **Add custom connector**.
+1. In claude.ai, click your name at the bottom left, then **Settings**, then **Customize**, then **Connectors**.
+2. Click **Add**, then **Add custom connector**.
 3. Name: `Kasona`. URL: `https://mcp.kasona.ai/mcp`. Save.
 4. Click **Connect** next to Kasona. You are taken to the Kasona sign-in.
 5. Sign in with your Kasona account, review the permissions shown and click **Allow**.
 6. Start a new chat and ask, for example: "How is my portfolio doing?"
+
+Tip: once added in claude.ai, Kasona also appears in the Claude desktop app on the same account; no extra setup needed.
 
 In Team or Enterprise accounts, only an admin can add custom connections.
 
@@ -124,7 +128,7 @@ Once Kasona is listed in the Claude and ChatGPT directories, you can simply sear
 
 ## Disconnect
 
-- **Claude:** remove Kasona under **Customize > Connectors**.
+- **Claude:** remove Kasona under **Settings > Customize > Connectors**.
 - **ChatGPT:** open the Kasona plugin and disconnect or remove it.
 
 If you also want Kasona to block access, email hallo@kasona.ai. Manage chats already stored in Claude or ChatGPT there.
